@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Falling Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <h1>Catch the Falling Stars ⭐</h1>
+        <p>By Moataz</p>
+        <button onclick="startGame()">Play</button>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+    <div id="gameOverScreen" style="display: none;">
+        <h2>Game Over</h2>
+        <p id="finalScore"></p>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
